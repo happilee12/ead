@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Embodied Agent and Dialog (EAD) Workshop @ ECCV 2026</title>
+  <meta
+    name="description"
+    content="Embodied Agent and Dialog (EAD) Workshop at ECCV 2026. A workshop on proactive dialog, embodied reasoning, and safe human-agent collaboration."
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo">EAD 2026</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#cfp">CFP</a>
+        <a href="#challenges">Challenges</a>
+        <a href="#organizers">Organizers</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">ECCV 2026 Workshop</p>
+          <h1>Embodied Agent and Dialog (EAD)</h1>
+          <p class="hero-subtitle">
+            Embodied agents that ask, reason, and act safely.
+            EAD explores proactive dialog for embodied intelligence in real-world environments.
+          </p>
+
+          <div class="hero-meta">
+            <div class="meta-card">
+              <span class="meta-label">Venue</span>
+              <span class="meta-value">ECCV 2026</span>
+            </div>
+            <div class="meta-card">
+              <span class="meta-label">Format</span>
+              <span class="meta-value">Half-day Workshop</span>
+            </div>
+            <div class="meta-card">
+              <span class="meta-label">Focus</span>
+              <span class="meta-value">Dialog, Reasoning, Embodied AI</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#cfp">Call for Papers</a>
+            <a class="btn btn-secondary" href="https://your-dialnav-challenge-site.github.io/" target="_blank" rel="noopener noreferrer">
+              DialNav Challenge
+            </a>
+            <a class="btn btn-secondary" href="https://your-coin-challenge-site.github.io/" target="_blank" rel="noopener noreferrer">
+              CoIN Challenge
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="hero-panel-inner">
+            <p class="panel-title">Workshop Themes</p>
+            <ul class="theme-list">
+              <li>Dialog-Enabled Agents</li>
+              <li>Embodied Reasoning</li>
+              <li>Adaptive Embodied Systems</li>
+              <li>New Tasks and Benchmarks</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">About</p>
+          <h2>Why EAD?</h2>
+        </div>
+
+        <div class="two-col">
+          <div>
+            <p>
+              As embodied agents move beyond passive perception toward goal-oriented action in the physical world,
+              dialog becomes essential. Real-world tasks often involve ambiguous, underspecified, or changing
+              instructions, and safe execution depends on the agent’s ability to clarify intent through interaction.
+            </p>
+            <p>
+              EAD brings together researchers in computer vision, NLP, robotics, and human-AI interaction to study
+              the interdependent loop of perception, language, and action. The workshop focuses on agents that can
+              internalize uncertainty, initiate multi-turn dialog, and collaborate effectively with humans.
+            </p>
+          </div>
+          <div>
+            <p>
+              Unlike prior venues that emphasize either embodied execution without interactive dialog, or language
+              agents without physical grounding, EAD centers on proactive dialog as a core capability for robust,
+              cooperative, and safe embodied intelligence.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-grid four">
+          <article class="info-card">
+            <h3>Dialog-Enabled Agents</h3>
+            <p>Agents that use dialog to manage uncertainty and align actions with human intent.</p>
+          </article>
+          <article class="info-card">
+            <h3>Embodied Reasoning</h3>
+            <p>Natural-language explanations, action rationales, and interactive decision making.</p>
+          </article>
+          <article class="info-card">
+            <h3>Adaptive Systems</h3>
+            <p>Dynamic behavior and dialog strategies conditioned on environment and user feedback.</p>
+          </article>
+          <article class="info-card">
+            <h3>Tasks & Benchmarks</h3>
+            <p>Evaluation of task success, dialog quality, situational understanding, and human-likeness.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="speakers" class="section alt-bg">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Invited Speakers</p>
+          <h2>Confirmed Speakers</h2>
+        </div>
+
+        <div class="card-grid four">
+          <article class="speaker-card">
+            <div class="speaker-avatar">CS</div>
+            <h3>Cordelia Schmid</h3>
+            <p class="speaker-affiliation">Google / Inria</p>
+            <p class="speaker-desc">
+              A leading figure in computer vision, offering a broad perspective on the evolution from perception
+              toward embodied AI.
+            </p>
+          </article>
+
+          <article class="speaker-card">
+            <div class="speaker-avatar">RK</div>
+            <h3>Ranjay Krishna</h3>
+            <p class="speaker-affiliation">University of Washington / AI2</p>
+            <p class="speaker-desc">
+              Research on reasoning-and-acting systems and interpretable agents for collaborative physical tasks.
+            </p>
+          </article>
+
+          <article class="speaker-card">
+            <div class="speaker-avatar">QW</div>
+            <h3>Qi Wu</h3>
+            <p class="speaker-affiliation">The University of Adelaide</p>
+            <p class="speaker-desc">
+              A pioneer in vision-and-language navigation, with insights into the evolution of embodied benchmarks.
+            </p>
+          </article>
+
+          <article class="speaker-card">
+            <div class="speaker-avatar">SC</div>
+            <h3>Sungjoon Choi</h3>
+            <p class="speaker-affiliation">Korea University</p>
+            <p class="speaker-desc">
+              Focused on uncertainty-aware embodied systems, interactive decision-making, and learning from feedback.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="schedule" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Program</p>
+          <h2>Tentative Schedule</h2>
+        </div>
+
+        <div class="schedule-table-wrap">
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Session</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>13:00 – 13:10</td>
+                <td>Welcome and Opening Remarks</td>
+              </tr>
+              <tr>
+                <td>13:10 – 13:40</td>
+                <td>Invited Talk 1 — Cordelia Schmid</td>
+              </tr>
+              <tr>
+                <td>13:40 – 14:10</td>
+                <td>Invited Talk 2 — Ranjay Krishna</td>
+              </tr>
+              <tr>
+                <td>14:10 – 15:10</td>
+                <td>Poster Session &amp; Coffee Break</td>
+              </tr>
+              <tr>
+                <td>15:10 – 15:40</td>
+                <td>Invited Talk 3 — Qi Wu</td>
+              </tr>
+              <tr>
+                <td>15:40 – 16:10</td>
+                <td>Invited Talk 4 — Sungjoon Choi</td>
+              </tr>
+              <tr>
+                <td>16:10 – 16:40</td>
+                <td>The 1st DialNav Challenge — Results and Winner Presentation</td>
+              </tr>
+              <tr>
+                <td>16:40 – 17:10</td>
+                <td>The 1st CoIN Challenge — Results and Winner Presentation</td>
+              </tr>
+              <tr>
+                <td>17:10 – 17:20</td>
+                <td>Closing Remarks</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="cfp" class="section alt-bg">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Participation</p>
+          <h2>Call for Papers</h2>
+        </div>
+
+        <div class="two-col">
+          <div>
+            <h3>Topics of Interest</h3>
+            <ul class="bullet-list">
+              <li>Embodied dialog and interactive instruction following</li>
+              <li>Embodied reasoning and self-explanation</li>
+              <li>Uncertainty-aware embodied agents</li>
+              <li>Adaptive human-agent collaboration</li>
+              <li>Benchmarks, datasets, and evaluation for dialog-based embodied AI</li>
+              <li>Safety, alignment, and communicative intelligence in physical AI</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Submission Information</h3>
+            <p>
+              Submission details, formatting instructions, and important dates will be announced soon.
+            </p>
+            <div class="cfp-actions">
+              <a class="btn btn-primary" href="https://openreview.net/" target="_blank" rel="noopener noreferrer">
+                Submission Portal
+              </a>
+              <a class="btn btn-secondary" href="#" aria-disabled="true">
+                Important Dates Coming Soon
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="challenges" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Challenges</p>
+          <h2>Associated Challenge Websites</h2>
+        </div>
+
+        <p class="section-intro">
+          EAD hosts two complementary challenges. The main workshop page provides the overview below,
+          while detailed rules, submission instructions, and leaderboards are managed on separate challenge websites.
+        </p>
+
+        <div class="card-grid two">
+          <article class="challenge-card">
+            <h3>The 1st DialNav Challenge</h3>
+            <p class="challenge-subtitle">Interactive Instruction Following</p>
+            <p>
+              A collaborative navigation challenge centered on high-level path ambiguity. Participants build
+              a Navigator, a Guide, or both, with dataset and baseline support provided.
+            </p>
+            <a class="btn btn-primary" href="https://your-dialnav-challenge-site.github.io/" target="_blank" rel="noopener noreferrer">
+              Visit DialNav Website
+            </a>
+          </article>
+
+          <article class="challenge-card">
+            <h3>The 1st CoIN Challenge</h3>
+            <p class="challenge-subtitle">Collaborative Instance Navigation</p>
+            <p>
+              A challenge focused on low-level instance disambiguation through targeted questioning,
+              uncertainty recognition, and efficient interaction.
+            </p>
+            <a class="btn btn-primary" href="https://your-coin-challenge-site.github.io/" target="_blank" rel="noopener noreferrer">
+              Visit CoIN Website
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="organizers" class="section alt-bg">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Team</p>
+          <h2>Organizers</h2>
+        </div>
+
+        <div class="card-grid three">
+          <article class="organizer-card">
+            <h3>Paul Hongsuck Seo</h3>
+            <p>Korea University</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Shizhe Chen</h3>
+            <p>INRIA Paris</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Yiming Wang</h3>
+            <p>Fondazione Bruno Kessler</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Jonghyun Choi</h3>
+            <p>Seoul National University</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Aishwarya Agrawal</h3>
+            <p>University of Montreal / Google DeepMind</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Sangwon Jung</h3>
+            <p>KAIST</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Leekyeung Han</h3>
+            <p>Korea University</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Edoardo Zorzi</h3>
+            <p>Sapienza University of Rome</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Hyunji Min</h3>
+            <p>Korea University</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Gengze Zhou</h3>
+            <p>The University of Adelaide</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Jinseong Jeong</h3>
+            <p>Korea University</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Minyoung Kim</h3>
+            <p>Korea University</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Get in Touch</p>
+          <h2>Contact & Sponsors</h2>
+        </div>
+
+        <div class="two-col">
+          <div>
+            <h3>Contact</h3>
+            <p>
+              For workshop inquiries, please contact:
+            </p>
+            <p>
+              <a href="mailto:phseo@korea.ac.kr">phseo@korea.ac.kr</a><br />
+              <a href="mailto:happilee12@korea.ac.kr">happilee12@korea.ac.kr</a>
+            </p>
+          </div>
+
+          <div>
+            <h3>Sponsors</h3>
+            <div class="sponsor-list">
+              <span class="sponsor-badge">kakaomobility</span>
+              <span class="sponsor-badge">Korea University ICT Creative Consilience Foundation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2026 Embodied Agent and Dialog (EAD) Workshop</p>
+      <p>ECCV 2026</p>
+    </div>
+  </footer>
+</body>
+</html>
