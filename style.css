@@ -364,8 +364,8 @@ a { text-decoration: none; color: inherit; }
 .date-card strong {
   display: block;
   margin-bottom: 18px;
-  font-size: 30px;
-  line-height: 1;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .date-card span {
