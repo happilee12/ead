@@ -489,6 +489,15 @@ a { text-decoration: none; color: inherit; }
   background: #d9dce5;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
+}
+
+.photo-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 .person-card h3,
