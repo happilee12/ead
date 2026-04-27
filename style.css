@@ -120,6 +120,8 @@ a { text-decoration: none; color: inherit; }
   background-image: url("assets/hero-bg.png");
   background-size: cover;
   background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #071025;
 }
 
 .hero-overlay {
@@ -894,6 +896,20 @@ a { text-decoration: none; color: inherit; }
   bottom: 22px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+@media (min-width: 1920px) {
+  .hero {
+    min-height: 820px;
+  }
+
+  .hero-bg {
+    background-image: url("assets/hero-bg-xl.png");
+  }
+
+  .hero-content {
+    padding-top: 200px;
+  }
 }
 
 @media (max-width: 1180px) {
