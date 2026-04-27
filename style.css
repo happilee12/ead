@@ -117,8 +117,7 @@ a { text-decoration: none; color: inherit; }
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url("assets/hero-bg.jpeg");
-  /* background-image: url("assets/hero-bg.png"); */
+  background-image: url("assets/hero-bg.png");
   background-size: cover;
   background-position: center right;
 }
