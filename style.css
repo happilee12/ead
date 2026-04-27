@@ -127,8 +127,8 @@ a { text-decoration: none; color: inherit; }
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(7,16,37,.98) 0%, rgba(7,16,37,.88) 32%, rgba(7,16,37,.42) 64%, rgba(7,16,37,.16) 100%),
-    linear-gradient(180deg, rgba(7,16,37,.62) 0%, rgba(7,16,37,.08) 56%, rgba(7,16,37,.18) 100%);
+    linear-gradient(90deg, rgba(7,16,37,.78) 0%, rgba(7,16,37,.62) 32%, rgba(7,16,37,.22) 64%, rgba(7,16,37,.06) 100%),
+    linear-gradient(180deg, rgba(7,16,37,.38) 0%, rgba(7,16,37,.04) 56%, rgba(7,16,37,.10) 100%);
 }
 
 .hero-content {
