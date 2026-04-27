@@ -9,25 +9,23 @@
 </head>
 <body>
   <header class="topbar">
-    <div class="brand">
-      <a href="#home"><span>EAD</span> 2026</a>
-      <p>ECCV Workshop</p>
-    </div>
+    <a class="brand-logo" href="#home">
+      <img src="assets/eccv2026.svg" alt="ECCV 2026" />
+    </a>
 
     <nav class="nav">
       <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
       <a href="#speakers">Speakers</a>
       <a href="#program">Program</a>
-      <a href="#cfp">CFP</a>
+      <a href="#cfp">Papers</a>
       <a href="#challenges">Challenges</a>
       <a href="#organizers">Organizers</a>
       <a href="#news">News</a>
       <a href="#sponsors">Sponsors</a>
-      <a href="#subscribe">Subscribe</a>
     </nav>
 
-    <a class="top-cta" href="#cfp">Call for Papers</a>
+    <!-- <a class="top-cta" href="#cfp">Call for Papers</a> -->
   </header>
 
   <main>
@@ -73,9 +71,9 @@
         </div>
 
         <div class="hero-actions">
-          <a class="btn primary" href="#dates">▣ Important Dates</a>
-          <a class="btn dark" href="#cfp">▣ Call for Papers</a>
-          <a class="btn outline" href="#challenges">⌘ Challenges ↗</a>
+          <a class="btn primary" href="#cfp">Paper Submission↗</a>
+          <a class="btn dark" href="#challenges">DialNav Challenge ↗</a>
+          <a class="btn dark" href="#challenges">COIN Challenges ↗</a>
         </div>
       </div>
     </section>
@@ -83,7 +81,7 @@
     <section id="dates" class="section dates-section">
       <div class="section-title-row">
         <div class="section-title">
-          <span class="section-icon">📅</span>
+          <span class="section-icon">◔</span>
           <h2>Important Dates</h2>
         </div>
         <!-- <a class="section-link" href="#program">View full schedule →</a> -->
@@ -105,38 +103,91 @@
         </article>
         <article class="date-card">
           <div class="date-icon teal">🚀</div>
-          <h3>Challenge Submission<br />Deadline</h3>
+          <h3>DialNav Challenge Submission<br />Deadline</h3>
           <strong>TBD</strong>
           <span>2026</span>
         </article>
         <article class="date-card">
           <div class="date-icon orange">🏆</div>
-          <h3>Challenge Result<br />Release</h3>
+          <h3>DialNav Challenge Result<br />Release</h3>
           <strong>TBD</strong>
           <span>2026</span>
         </article>
         <article class="date-card">
-          <div class="date-icon violet">📣</div>
-          <h3>Workshop<br />Date</h3>
+          <div class="date-icon teal">🚀</div>
+          <h3>COIN Challenge Submission<br />Deadline</h3>
           <strong>TBD</strong>
           <span>2026</span>
         </article>
         <article class="date-card">
-          <div class="date-icon pink">🎁</div>
-          <h3>Workshop Result<br />Release</h3>
+          <div class="date-icon orange">🏆</div>
+          <h3>COIN Challenge Result<br />Release</h3>
           <strong>TBD</strong>
           <span>2026</span>
         </article>
       </div>
     </section>
 
-    <section id="news" class="section">
+    <section id="about" class="section">
+      <div class="section-title">
+        <span class="section-icon">▱</span>
+        <h2>About Embodied Agent and Dialog (EAD) | ECCV 2026 Workshop</h2>
+      </div>
+
+      <div class="about-lead">
+        <p>
+          The Embodied Agent and Dialog (EAD) Workshop explores dialog in Embodied AI.
+          Embodied agents act in the real world and face physical consequences from
+          ambiguous or underspecified instructions. To ensure both efficiency and safety,
+          agents must proactively clarify uncertainty, request additional information
+          through dialog, and understand multi-turn instructions before acting.
+        </p>
+        <p>
+          The workshop unites researchers from computer vision, NLP, robotics, and
+          human–AI interaction to examine how dialog underpins intelligent, cooperative
+          embodied systems — covering dialog-based embodied task design, interpretable
+          and self-aware models, and the use of LLMs/VLMs for interactive reasoning and
+          control. We also host the <strong>1st DialNav Challenge</strong> to benchmark
+          progress in dialog-driven vision-and-language navigation, where agents complete
+          navigation through cooperative dialog with a remote guide.
+        </p>
+        <p>
+          Through invited talks, poster sessions, and shared competition, EAD seeks to
+          accelerate progress toward embodied agents that communicate naturally, act
+          safely, and collaborate effectively in human-centric environments.
+        </p>
+      </div>
+
+      <div class="theme-grid">
+        <article class="theme-card">
+          <div class="theme-icon purple">☷</div>
+          <h3>Dialog-Enabled Agents</h3>
+          <p>Agents that use dialog to manage uncertainty and align actions with human intent.</p>
+        </article>
+        <article class="theme-card">
+          <div class="theme-icon blue">◌</div>
+          <h3>Embodied Reasoning</h3>
+          <p>Natural-language explanations, action rationales, and interactive decision making.</p>
+        </article>
+        <article class="theme-card">
+          <div class="theme-icon teal">⬡</div>
+          <h3>Adaptive Systems</h3>
+          <p>Dynamic behavior and dialog strategies conditioned on environment and user feedback.</p>
+        </article>
+        <article class="theme-card">
+          <div class="theme-icon orange">▥</div>
+          <h3>Tasks &amp; Benchmarks</h3>
+          <p>Evaluation of task success, dialog quality, situational understanding, and human-likeness.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- <section id="news" class="section">
       <div class="section-title-row">
         <div class="section-title">
           <span class="section-icon">▣</span>
           <h2>News</h2>
         </div>
-        <!-- <a class="section-link" href="#news">View all news →</a> -->
       </div>
 
       <article class="news-card">
@@ -156,9 +207,8 @@
             has been officially accepted as a workshop at ECCV 2026.
           </p>
         </div>
-        <!-- <a class="news-arrow" href="#news">→</a> -->
       </article>
-    </section>
+    </section> -->
 
     <section id="speakers" class="section">
       <div class="section-title-row">
@@ -200,36 +250,6 @@
         <!-- <button class="carousel-btn right" aria-label="Next">›</button> -->
       </div>
       <!-- <div class="slider-dots"><b></b><span></span><span></span><span></span></div> -->
-    </section>
-
-    <section id="about" class="section">
-      <div class="section-title">
-        <span class="section-icon">▱</span>
-        <h2>Workshop Themes</h2>
-      </div>
-
-      <div class="theme-grid">
-        <article class="theme-card">
-          <div class="theme-icon purple">☷</div>
-          <h3>Dialog-Enabled Agents</h3>
-          <p>Agents that use dialog to manage uncertainty and align actions with human intent.</p>
-        </article>
-        <article class="theme-card">
-          <div class="theme-icon blue">◌</div>
-          <h3>Embodied Reasoning</h3>
-          <p>Natural-language explanations, action rationales, and interactive decision making.</p>
-        </article>
-        <article class="theme-card">
-          <div class="theme-icon teal">⬡</div>
-          <h3>Adaptive Systems</h3>
-          <p>Dynamic behavior and dialog strategies conditioned on environment and user feedback.</p>
-        </article>
-        <article class="theme-card">
-          <div class="theme-icon orange">▥</div>
-          <h3>Tasks &amp; Benchmarks</h3>
-          <p>Evaluation of task success, dialog quality, situational understanding, and human-likeness.</p>
-        </article>
-      </div>
     </section>
 
     <section id="program" class="section compact">
@@ -295,32 +315,24 @@
       </div>
 
       <div class="organizer-row">
-        <button class="carousel-btn left" aria-label="Previous">‹</button>
         <article class="mini-person"><div class="mini-photo"></div><h3>Paul Hongsuck Seo</h3><p>Korea University</p></article>
-        <article class="mini-person"><div class="mini-photo"></div><h3>Shizhe Chen</h3><p>INRIA Paris</p></article>
         <article class="mini-person"><div class="mini-photo"></div><h3>Yiming Wang</h3><p>FBK</p></article>
         <article class="mini-person"><div class="mini-photo"></div><h3>Jonghyun Choi</h3><p>Seoul National University</p></article>
-        <article class="mini-person"><div class="mini-photo"></div><h3>Aishwarya Agrawal</h3><p>Mila / DeepMind</p></article>
+        <article class="mini-person"><div class="mini-photo"></div><h3>Aishwarya Agrawal</h3><p>U. Montreal / Mila / Google DeepMind</p></article>
+        <!-- <article class="mini-person"><div class="mini-photo"></div><h3>Ahmet Iscen</h3><p>Google DeepMind</p></article> -->
+        <article class="mini-person"><div class="mini-photo"></div><h3>Sangwon Jung</h3><p>KAIST</p></article>
+        <article class="mini-person"><div class="mini-photo"></div><h3>Shizhe Chen</h3><p>INRIA Paris</p></article>
         <article class="mini-person"><div class="mini-photo"></div><h3>Leekyeung Han</h3><p>Korea University</p></article>
-        <article class="mini-person"><div class="mini-photo"></div><h3>Edoardo Zorzi</h3><p>Sapienza University of Rome</p></article>
-        <button class="carousel-btn right" aria-label="Next">›</button>
+        <article class="mini-person"><div class="mini-photo"></div><h3>Hyunji Min</h3><p>Korea University</p></article>
+        <article class="mini-person"><div class="mini-photo"></div><h3>Gengze Zhou</h3><p>University of Adelaide</p></article>
+        <article class="mini-person"><div class="mini-photo"></div><h3>Jinseong Jeong</h3><p>Korea University</p></article>
+        <!-- <article class="mini-person"><div class="mini-photo"></div><h3>Minyoung Kim</h3><p>Korea University</p></article> -->
       </div>
     </section>
 
-    <section id="subscribe" class="section bottom-panels">
-      <div class="subscribe-card">
-        <div class="mail-icon">✉</div>
-        <div>
-          <h2>Stay Updated</h2>
-          <p>Subscribe to our mailing list for the latest news, important dates, and announcements.</p>
-          <a class="btn primary" href="https://forms.gle/your-google-form-link" target="_blank" rel="noopener noreferrer">
-            Subscribe via Google Form ↗
-          </a>
-        </div>
-      </div>
-
-      <div id="sponsors" class="sponsors-card">
-        <h2>☄ Sponsors</h2>
+    <section id="sponsors" class="section">
+      <div class="sponsors-card sponsors-full">
+        <h2>Sponsors</h2>
         <p>We gratefully acknowledge the support of our sponsors.</p>
         <div class="sponsor-grid">
           <div class="sponsor-logo">SPONSOR<br />LOGO</div>
@@ -349,8 +361,7 @@
     <div>
       <h3>Resources</h3>
       <a href="#dates">Important Dates</a>
-      <a href="#news">News</a>
-      <a href="#subscribe">Subscribe</a>
+      <a href="#sponsors">Sponsors</a>
     </div>
 
     <div>
