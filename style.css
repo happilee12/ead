@@ -708,7 +708,7 @@ a { text-decoration: none; color: inherit; }
 
 .tally-embed {
   max-width: 760px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .tally-embed iframe {
